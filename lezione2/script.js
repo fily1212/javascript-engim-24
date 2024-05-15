@@ -18,3 +18,5 @@ console.log(n1+n2);
 // moltiplicazione *
 // divisione /
 //  resto %
+
+let a = 5; 
