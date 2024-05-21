@@ -23,3 +23,4 @@ function click_mostra(){
     let posizione = document.getElementById("input-mostra").value;
     document.getElementById("h2-mostra").innerHTML = elementi[posizione];
 }
+
