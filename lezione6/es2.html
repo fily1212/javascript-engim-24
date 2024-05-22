@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Curriculum Vitae</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+        }
+        header {
+            background: #333;
+            color: #fff;
+            padding-top: 30px;
+            min-height: 70px;
+            border-bottom: #0779e4 3px solid;
+        }
+        header a {
+            color: #fff;
+            text-decoration: none;
+            text-transform: uppercase;
+            font-size: 16px;
+        }
+        header ul {
+            padding: 0;
+            list-style: none;
+        }
+        header li {
+            display: inline;
+            padding: 0 20px 0 20px;
+        }
+        header #branding {
+            float: left;
+        }
+        header #branding h1 {
+            margin: 0;
+        }
+        header nav {
+            float: right;
+            margin-top: 10px;
+        }
+        .content {
+            padding: 20px;
+            background: #fff;
+            margin-top: 20px;
+        }
+        h2 {
+            color: #333;
+        }
+        .contact-info, .education, .experience, .skills {
+            margin-bottom: 20px;
+        }
+        .contact-info ul, .education ul, .experience ul, .skills ul {
+            list-style: none;
+            padding: 0;
+        }
+        .contact-info li, .education li, .experience li, .skills li {
+            margin-bottom: 10px;
+        }
+        .skills ul {
+            display: flex;
+            flex-wrap: wrap;
+        }
+        .skills li {
+            background: #0779e4;
+            color: #fff;
+            padding: 5px 10px;
+            margin-right: 10px;
+            border-radius: 5px;
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div id="branding">
+                <h1>Nome Cognome</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#contact">Contatti</a></li>
+                    <li><a href="#education">Formazione</a></li>
+                    <li><a href="#experience">Esperienza</a></li>
+                    <li><a href="#skills">Competenze</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <div class="container">
+        <div class="content">
+            <section id="contact" class="contact-info">
+                <h2>Informazioni di Contatto</h2>
+                <ul>
+                    <li>Email: nome.cognome@email.com</li>
+                    <li>Telefono: +39 123 456 7890</li>
+                    <li>Indirizzo: Via Esempio, 1, Torino, Italia</li>
+                </ul>
+            </section>
+
+            <section id="education" class="education">
+                <h2>Formazione</h2>
+                <ul>
+                    <li>
+                        <strong>Laurea in Informatica</strong><br>
+                        Università degli Studi di Torino, 2010 - 2013
+                    </li>
+                    <li>
+                        <strong>Diploma di Maturità Scientifica</strong><br>
+                        Liceo Scientifico Galileo Ferraris, Torino, 2005 - 2010
+                    </li>
+                </ul>
+            </section>
+
+            <section id="experience" class="experience">
+                <h2>Esperienza Professionale</h2>
+                <ul>
+                    <li>
+                        <strong>Docente di Informatica</strong><br>
+                        Liceo Scientifico Galileo Ferraris, Torino, 2015 - presente
+                    </li>
+                    <li>
+                        <strong>Fotografo Professionista</strong><br>
+                        Studio Fotografico NomeStudio, Torino, 2013 - presente
+                    </li>
+                </ul>
+            </section>
+
+            <section id="skills" class="skills">
+                <h2>Competenze</h2>
+                <ul>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>JavaScript</li>
+                    <li>Python</li>
+                    <li>Fotografia</li>
+                    <li>Editing Fotografico</li>
+                </ul>
+            </section>
+        </div>
+    </div>
+</body>
+</html>
