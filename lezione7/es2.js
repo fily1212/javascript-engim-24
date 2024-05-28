@@ -3,6 +3,11 @@ let persone = [{nome:"Chiara", cognome:"Foniciello"},
 {nome:"Valerio", cognome:"Decaro"}
 ];
 
+persone.forEach(persona=>{
+    let p = document.createElement("p");
+    p.innerHTML = persona.nome + " " + persona.cognome; 
+    document.getElementById("lista").appendChild(p);
+});
 
 
 function evidenzia(){
@@ -14,3 +19,15 @@ function evidenzia(){
         p.classList.add("fw-bold");
     }
 }
+
+
+
+
+let div = document.createElement("div");
+let pnome = document.createElement("p");
+pnome.innerHTML = persona.nome;
+let pcognome = document.createElement("p");
+pcognome.innerHTML = persona.cognome;
+div.classList.add("card");
+div.appendChild(pnome);
+div.appendChild(pcognome);
