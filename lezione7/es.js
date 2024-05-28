@@ -4,7 +4,12 @@ var nomi = ["Chiara", "Giorgia", "Valerio", "Santa", "Francesco"]
     AZIONI... 
 }*/
 let i = 0;
+listaDiv = document.getElementById("lista");
+let p = document.createElement("p");
+p.innerHTML = nomi[i];
+listaDiv.appendChild(p);
+
 while(i < 5){
-    alert(nomi[i]);
+    //alert(nomi[i]);
     i++;
 }
