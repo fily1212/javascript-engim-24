@@ -4,5 +4,11 @@
 fetch("https://api.open-meteo.com/v1/forecast?latitude=45.07&longitude=7.69&current_weather=true&hourly=weathercode&timezone=CET&daily=weathercode")
         .then(response =>response.json())
         .then(json=>{
-            document.getElementById("temperatura").innerHTML = json.current_weather.temperature;
+            mostraInformazioni(json);
         });
+
+
+function mostraInformazioni(json){
+    document.getElementById("temperatura").innerHTML = json.current_weather.temperature;
+    
+}
