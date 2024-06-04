@@ -10,5 +10,4 @@ fetch("https://api.open-meteo.com/v1/forecast?latitude=45.07&longitude=7.69&curr
 
 function mostraInformazioni(json){
     document.getElementById("temperatura").innerHTML = json.current_weather.temperature;
-    
 }
