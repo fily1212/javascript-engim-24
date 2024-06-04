@@ -43,3 +43,9 @@ function creaCard(titolo, prezzo, stelle){
     card.appendChild(p2);
     document.getElementById("lista").appendChild(card); 
 }
+
+function aggiungi(){
+    creaCard(document.getElementById("titolo").value,
+    document.getElementById("prezzo").value,
+    document.getElementById("stelle").value);
+}
