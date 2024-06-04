@@ -10,6 +10,10 @@ Aggiungi che aggiunge una card nuova al fondo. */
 
 let prodotti  = [ {"titolo": "Maglia", "prezzo": 25.00, "stelle": 4}, {"titolo": "Pantaloni", "prezzo": 21.00, "stelle": 3}, {"titolo": "T-shirt", "prezzo": 15.00, "stelle": 4.7}, {"titolo": "Felpa", "prezzo": 29.00, "stelle": 4.5}, {"titolo": "Giacca", "prezzo": 55.00, "stelle": 3.9} ] 
 
+for(let prodotto of prodotti)
+    creaCard(prodotto.titolo,prodotto.prezzo,prodotto.stelle);
+
+
 /*  <div class="card col-6 col-md-3">
                 <h1>Maglia</h1>
                 <p>50,00€</p>
